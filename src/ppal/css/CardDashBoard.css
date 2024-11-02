@@ -1,0 +1,59 @@
+@import url("../../App.css");
+
+.titleCardDashBoard {
+
+}
+
+.pCardDashBoard{}
+
+
+/* Estilos para el ícono estático, inicialmente oculto */
+
+.CardDashBoard .staticImgCard {
+  
+  padding: 15px;
+  height: 70px;
+  border: 5px solid var(--Dazzling-Blue);
+  border-radius: 55px;
+  /*background-color: var(--Moon-White);
+  border: 1px solid var(--Moon-White);
+  background-color: linear-gradient(var(--Dazzling-Blue), var(--Bluebell));*/
+  transition: visibility 0.3s;
+}
+
+/* Estilos para el ícono animado cuando se pasa el mouse por encima */
+.CardDashBoard .imgCardDashBoard {
+  display: none;
+
+
+}
+
+/* Mostrar el ícono estático cuando el mouse está sobre el enlace */
+.linkCardDashBoard .CardDashBoard:hover .staticImgCard {
+  display: none;
+}
+
+/* Mostrar el ícono animado cuando el mouse está sobre el enlace */
+.linkCardDashBoard .CardDashBoard:hover .imgCardDashBoard {
+  display: inline-block;
+  padding: 5px;
+  height: 90px;
+  border-radius: 70px;
+  border: 5px solid var(--Dazzling-Blue);
+  background-color: var(--Moon-White  )
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: inline-block;
+}
+ 
+
+
+
+
+
+
